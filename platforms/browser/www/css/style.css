@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pagina-inicial-adm{
+    background-image: url(../imagens/imagemlogin.jpg);
+    background-size: 100% 100%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    height: 720px;
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+.pagina-adm-fundo{
+    background-image: url(../imagens/fundo.svg);
+    background-size: 100% 100%;
+    position: absolute;
+    top: -15px;
+    left: 25%;
+    width: 982px;
+    height: 800px;
+}
+.botao-ajuda{
+    margin-top: 2em;
+}
+.fundo-login{
+    position: absolute;
+    top: 0;
+   
+}
+.fundo-login-campos{
+    margin-top: 5em;
+    background: #FFFFFF;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.login-senha{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    border-bottom: #D4242B;
+}
+.botao-desistir{
+    margin-top: 6em;
+    margin-bottom: 13em;
+}
+
+.ajuda{
+    margin-left: 1em;
+}
+/* administrador*/
+.menu-navegacao-lateral{
+    background-color: white;
+    box-shadow: none;
+}
+.menu-navegacao-lateral div a{
+    border: none;
+    box-shadow: none;
+    font-family: Roboto;
+   
+    font-size: 0.9em;
+    
+
+}
+
+.menu-navegacao-lateral-a + div{
+    position: relative;
+    z-index: 10000;
+}
+.menu-navegacao-lateral div a:hover{
+    box-shadow: none;
+
+}
+.content-menu-lateral{
+    box-shadow: 0px 0px 5px 0px ;
+    position: fixed;
+    height: 780px;
+    background-color: white;
+    z-index: 10000;
+}
+.barra-header{
+    position: fixed;
+}
+.barra-header,.barra-header-nav{
+    background-color: #C70C14;
+}
+.barra-header-nav div{
+    margin-top: 0.8em;
+}
+.barra-header-nav-foto{
+    position: relative;
+    top: -1.8em;
+}
+.conteine-administrador{
+    margin-top: 5em;
+}
+.titulo-adminitrador-vendas{
+    padding: 0.2em;
+}
+.conteine-adminitrador-tebelas{
+    position: relative;
+    top:1em
+}
+.conteudo-botao-vendas,.conteudo-botao-produtos,.conteudo-botao-entregas,.conteudo-botao-clientes{
+    margin-top: 2em;
+    height: 110px;
+}
+.conteudo-botao-vendas{
+    background-image: url(../imagens/cesta.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.conteudo-botao-produtos{
+    background-image: url(../imagens/produto.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.conteudo-botao-entregas{
+    background-image: url(../imagens/caminhao.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.conteudo-botao-clientes{
+    background-image: url(../imagens/clientes.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.conteudo-botao-vendas1,.conteudo-botao-clientes1,.conteudo-botao-entregas1,.conteudo-botao-produtos1{
+    position: relative;
+    width: 92px;
+    height: 28px;
+    margin-top: 0.6em;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: top left;
+    color: #FFFFFF;
+}
+.conteudo-botao-vendas2,.conteudo-botao-clientes2,.conteudo-botao-entregas2,.conteudo-botao-produtos2{
+    position: relative;
+    width: 42px;
+    height: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.conteudo-botao-vendas3,.conteudo-botao-clientes3,.conteudo-botao-entregas3,.conteudo-botao-produtos3{
+    position: relative;
+    left: 0.8em;
+    width: 54px;
+    height: 16px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: top left;
+
+    color: #FFFFFF;
+}
+.collection-item{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+
+/* Classes de alertas*/
+.errados{
+    padding: 1.5em;
+    border: 1px red solid;
+    border-radius: 5px;
+    background-color: red;
+}
+.pagina-principal{
+    background-color: #FFFFFF;
+    background-image: url('../img/fundo.png');
+   
+}
+.paginaprincipalrodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
